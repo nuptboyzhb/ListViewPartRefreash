@@ -1,0 +1,52 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_pressed="false">
+    <!-- 定义当控件 处于没有按下时的形态。 -->
+    <shape >
+    <!-- 渐变 -->
+    <gradient
+        android:angle="90"
+        android:centerColor="#fa127689"
+        android:endColor="#6000aeef"
+        android:startColor="#ffcc00ff" />
+    <!-- 描边 -->
+    <stroke
+        android:dashGap="2dp"
+        android:dashWidth="3dp"
+        android:width="1dp"
+        android:color="#ffffff" />
+    <!-- 圆角 -->
+    <corners
+        android:bottomLeftRadius="15dp"
+        android:bottomRightRadius="15dp"
+        android:topLeftRadius="15dp"
+        android:topRightRadius="15dp" />
+
+</shape>
+</item>
+<item android:state_pressed="true">
+    <!-- 定义当控件按下时的形态  -->
+    <shape >
+    <!-- 渐变 -->
+    <gradient
+        android:angle="45"
+        android:centerColor="#88ff0000"
+        android:endColor="#6000aeef"
+        android:startColor="#ffcc00ff" />
+    <!-- 描边 -->
+    <stroke
+        android:dashGap="2dp"
+        android:dashWidth="3dp"
+        android:width="1dp"
+        android:color="#ffffff" />
+    <!-- 圆角 -->
+    <corners
+        android:bottomLeftRadius="3dp"
+        android:bottomRightRadius="3dp"
+        android:topLeftRadius="3dp"
+        android:topRightRadius="3dp" />
+
+    </shape>
+</item>
+</selector>
+
+
